@@ -68,6 +68,11 @@ variable "vpc_origin" {
   default = null
 }
 
+variable "default_root_object" {
+  type    = string
+  default = null
+}
+
 variable "tags" {
   type    = map(string)
   default = {}

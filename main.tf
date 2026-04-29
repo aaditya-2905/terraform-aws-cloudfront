@@ -24,5 +24,7 @@ module "cloudfront" {
 
   vpc_origin = var.vpc_origin
 
+  default_root_object = var.default_root_object
+
   tags = var.tags
 }

@@ -41,5 +41,7 @@ module "this" {
 
   logging_config = var.logging_config
 
+  default_root_object = var.default_root_object
+
   tags = var.tags
 }
